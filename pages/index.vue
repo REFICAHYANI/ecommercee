@@ -2,7 +2,7 @@
     <div class="home">
       <div class="hero">
         <h1 class="hero-title">WELCOME {{ storeName }}</h1>
-        <p class="hero-description">Temukan hewan ternak dengan kualitas terjamin.</p>
+        <p class="hero-description">Temukan Tas Pilihan Dengan Kualitas Terjamin.</p>
         <NuxtLink to="/product" class="text-base">
           <button class="hero-button">Lihat Produk</button>
         </NuxtLink>
@@ -14,7 +14,7 @@
   export default {
     data() {
       return {
-        storeName: "REFI CATTLE "
+        storeName: "REFI COLLECTIONS "
       };
     }
   };
@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('images/bg1.jpg') center/cover no-repeat;
+    background: url('images/bg111.jpg') center/cover no-repeat;
   }
   
   .hero {

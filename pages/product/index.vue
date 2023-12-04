@@ -1,6 +1,10 @@
 <script lang="ts" setup>
 import { useProductsStore } from "~/stores/products";
 
+definePageMeta({
+middleware: ["user-access"]
+});
+
 const productStore = useProductsStore();
 const allProducts = ref([]);
 
@@ -22,10 +26,10 @@ const selectedCategory = ref("");
             <NuxtLink
               to="/category/create"
               class="bg-orange-500 text-white flex justify- center items-center px-3 rounded-lg"
-              >Create Category</NuxtLink>
+              >NEW CATEGORY</NuxtLink>
 
               <NuxtLink to="/product/create" class="bg-green-500 text-white flex justify-center
-items-center px-3 rounded-lg">Create Products</NuxtLink>
+items-center px-3 rounded-lg">NEW PRODUCT</NuxtLink>
           </div>
           <div class="flex gap-6 flex-wrap mx-auto">
             <template v-for="(item, index) in allProducts" :key="index">

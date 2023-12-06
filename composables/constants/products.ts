@@ -10,7 +10,7 @@ export const products = [
       description: "tas karakter anime berkualitas",
     },
     {
-      id: 3,
+      id: 14,
       name: "BOBOIBOY CHARACTER BAG",
       category: "character bag",
       price: 30000000,
@@ -19,7 +19,7 @@ export const products = [
       description: "Tas dengan karakter boboiboy",
     },
     {
-      id: 4,
+      id: 15,
       name: "HELLO KITTY CHARACTER BAG",
       category: "character bag",
       price: 20000000,
@@ -28,7 +28,7 @@ export const products = [
       description: "TAS DENGAN KARAKTER HELOKITTY",
     },
     {
-      id: 5,
+      id: 16,
       name: "MICKEY MOUSE CHARACTER BAG",
       category: "character bag",
       price: 26000000,
@@ -37,7 +37,7 @@ export const products = [
       description: "Garansi jaminan pngiriman aman sampai tujuan",
     },
     {
-      id: 6,
+      id: 17,
       name: "THOMAS CHARACTER BAG",
       category: "character bag",
       price: 31000000,
@@ -46,7 +46,7 @@ export const products = [
       description: "TAS DENGAN KARAKTER THOMAS",
     },
     {
-      id: 7,
+      id: 18,
       name: "DORAEMON CHARACTER SUITCASE",
       category: "character suitcase",
       price: 35000000,
@@ -56,7 +56,7 @@ export const products = [
     },
   
     {
-      id: 18,
+      id: 19,
       name: "character bag",
       category: "character bag",
       price: 40000000,
